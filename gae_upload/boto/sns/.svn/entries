@@ -1,0 +1,40 @@
+8
+
+dir
+21
+http://boto.googlecode.com/svn/trunk/boto/sns
+http://boto.googlecode.com/svn
+
+
+
+2010-04-20T01:51:06.597192Z
+1581
+Mitch.Garnaat
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+604d75c7-a419-0410-a38f-bde1a0bd1dbf
+
+__init__.py
+file
+
+
+
+
+2010-07-11T18:30:12.000000Z
+fdf4c5c022e60700f6bf70a15e069a75
+2010-04-20T01:51:06.597192Z
+1581
+Mitch.Garnaat
+

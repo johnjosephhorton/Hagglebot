@@ -1,0 +1,48 @@
+#image, #label_form div {
+  margin: 20px;
+}
+
+#label_form .block {
+  display: block;
+  margin: 20px 0;
+}
+
+.chat_window {
+  width: 300px;
+  overflow: hidden;
+  position: fixed; bottom: 0; right: 20px;
+  border: solid 2px #999;
+  border-bottom: none;
+  line-height: 16pt;
+  font-family: sans-serif;
+  font-size: 11pt;
+}
+.chat_window h2 {
+  margin: 0;
+  padding: 5px 10px;
+  background: #666;
+  text-shadow: 0 0 2px black;
+  font-size: inherit;
+  color: white;
+}
+.chat_window .messages {
+  min-height: 220px;
+}
+.chat_window .messages p {
+  margin: 0;
+  padding: 10px 20px;
+}
+.chat_window form {
+  padding: 5px;
+  border-top: solid 1px #999;
+  background: #DDD;
+}
+.chat_window form div {
+  padding: 3px 5px;
+}
+.chat_window form input {
+  font-size: inherit;
+}
+.chat_window form .hidden {
+  visibility: hidden;
+}

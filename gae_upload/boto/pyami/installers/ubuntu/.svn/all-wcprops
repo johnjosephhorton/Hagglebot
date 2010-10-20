@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1509/trunk/boto/pyami/installers/ubuntu
+END
+ebs.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1425/trunk/boto/pyami/installers/ubuntu/ebs.py
+END
+trac.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1452/trunk/boto/pyami/installers/ubuntu/trac.py
+END
+installer.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1509/trunk/boto/pyami/installers/ubuntu/installer.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/575/trunk/boto/pyami/installers/ubuntu/__init__.py
+END
+apache.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/985/trunk/boto/pyami/installers/ubuntu/apache.py
+END
+mysql.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1364/trunk/boto/pyami/installers/ubuntu/mysql.py
+END

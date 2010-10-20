@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/1513/trunk/boto/vpc
+END
+vpc.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/1311/trunk/boto/vpc/vpc.py
+END
+dhcpoptions.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1311/trunk/boto/vpc/dhcpoptions.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1513/trunk/boto/vpc/__init__.py
+END
+subnet.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1311/trunk/boto/vpc/subnet.py
+END
+vpnconnection.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1513/trunk/boto/vpc/vpnconnection.py
+END
+customergateway.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1311/trunk/boto/vpc/customergateway.py
+END
+vpngateway.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1311/trunk/boto/vpc/vpngateway.py
+END

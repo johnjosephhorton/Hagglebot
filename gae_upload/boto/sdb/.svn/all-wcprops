@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/1627/trunk/boto/sdb
+END
+item.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/1445/trunk/boto/sdb/item.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1586/trunk/boto/sdb/__init__.py
+END
+regioninfo.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1627/trunk/boto/sdb/regioninfo.py
+END
+connection.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1531/trunk/boto/sdb/connection.py
+END
+queryresultset.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1530/trunk/boto/sdb/queryresultset.py
+END
+domain.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1532/trunk/boto/sdb/domain.py
+END

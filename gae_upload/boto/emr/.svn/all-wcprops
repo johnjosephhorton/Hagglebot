@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/1624/trunk/boto/emr
+END
+emrobject.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1623/trunk/boto/emr/emrobject.py
+END
+bootstrap_action.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1601/trunk/boto/emr/bootstrap_action.py
+END
+step.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/1624/trunk/boto/emr/step.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1601/trunk/boto/emr/__init__.py
+END
+connection.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1601/trunk/boto/emr/connection.py
+END

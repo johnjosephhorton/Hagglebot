@@ -1,0 +1,52 @@
+8
+
+dir
+21
+http://boto.googlecode.com/svn/trunk/boto/fps
+http://boto.googlecode.com/svn
+
+
+
+2010-06-22T12:20:00.307172Z
+1616
+Mitch.Garnaat
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+604d75c7-a419-0410-a38f-bde1a0bd1dbf
+
+__init__.py
+file
+
+
+
+
+2010-07-11T18:30:12.000000Z
+f67cc05bcf3d1a234da9e35b55e0f3b8
+2008-02-27T18:30:33.389123Z
+514
+kopertop
+
+connection.py
+file
+
+
+
+
+2010-07-11T18:30:12.000000Z
+f4a5e35b534bd132e28a61e0f2baeb98
+2010-06-22T12:20:00.307172Z
+1616
+Mitch.Garnaat
+

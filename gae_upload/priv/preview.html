@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block head %}
+  <style>
+    h1, p, div {
+      margin: 20px;
+    }
+  </style>
+{% endblock %}
+
+{% block body %}
+  <h1>{{ experiment.hit_title|escape }}</h1>
+
+  <p>{{ experiment.hit_description|escape }}</p>
+
+  <noscript>
+    <p>You need to enable Javascript in your web browser to work on this task.</p>
+  </noscript>
+
+  <div><img src="{{ experiment.t1_image_url|escape }}" alt=""></div>
+{% endblock %}

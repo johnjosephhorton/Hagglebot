@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/1637/trunk/boto/ec2
+END
+spotpricehistory.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1404/trunk/boto/ec2/spotpricehistory.py
+END
+bundleinstance.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1566/trunk/boto/ec2/bundleinstance.py
+END
+snapshot.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1489/trunk/boto/ec2/snapshot.py
+END
+connection.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1637/trunk/boto/ec2/connection.py
+END
+regioninfo.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1627/trunk/boto/ec2/regioninfo.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1291/trunk/boto/ec2/__init__.py
+END
+ec2object.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1005/trunk/boto/ec2/ec2object.py
+END
+instance.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1556/trunk/boto/ec2/instance.py
+END
+keypair.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1291/trunk/boto/ec2/keypair.py
+END
+reservedinstance.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1099/trunk/boto/ec2/reservedinstance.py
+END
+volume.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1556/trunk/boto/ec2/volume.py
+END
+spotdatafeedsubscription.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1413/trunk/boto/ec2/spotdatafeedsubscription.py
+END
+zone.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/978/trunk/boto/ec2/zone.py
+END
+launchspecification.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1404/trunk/boto/ec2/launchspecification.py
+END
+instanceinfo.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1156/trunk/boto/ec2/instanceinfo.py
+END
+buyreservation.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1460/trunk/boto/ec2/buyreservation.py
+END
+image.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/1433/trunk/boto/ec2/image.py
+END
+spotinstancerequest.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1434/trunk/boto/ec2/spotinstancerequest.py
+END
+securitygroup.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1609/trunk/boto/ec2/securitygroup.py
+END
+address.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1464/trunk/boto/ec2/address.py
+END
+blockdevicemapping.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1487/trunk/boto/ec2/blockdevicemapping.py
+END

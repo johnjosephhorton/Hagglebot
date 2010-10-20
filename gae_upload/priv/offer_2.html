@@ -1,0 +1,9 @@
+<div>
+  <p>How about {{ value }} cents?</p>
+
+  <form action="{{ action }}" method="POST">
+    <div><input type="radio" name="reply" value="accept" id="r1"> <span class="label"><label for="r1">Sure, I&rsquo;ll do it for {{ value }} cents</label></span></div>
+    <div><input type="radio" name="reply" value="reject" id="r2"> <span class="label"><label for="r2">No thanks</label></span></div>
+    <div><input type="submit" value="Send"></div>
+  </form>
+</div>

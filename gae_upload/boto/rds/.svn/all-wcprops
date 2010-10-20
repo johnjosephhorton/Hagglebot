@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/1600/trunk/boto/rds
+END
+dbsecuritygroup.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1493/trunk/boto/rds/dbsecuritygroup.py
+END
+dbinstance.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1589/trunk/boto/rds/dbinstance.py
+END
+parametergroup.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1358/trunk/boto/rds/parametergroup.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1600/trunk/boto/rds/__init__.py
+END
+event.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/1356/trunk/boto/rds/event.py
+END
+dbsnapshot.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1361/trunk/boto/rds/dbsnapshot.py
+END

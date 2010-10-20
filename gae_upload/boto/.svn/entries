@@ -1,0 +1,199 @@
+8
+
+dir
+21
+http://boto.googlecode.com/svn/trunk/boto
+http://boto.googlecode.com/svn
+
+
+
+2010-07-07T20:26:30.009030Z
+1637
+walsh159
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+604d75c7-a419-0410-a38f-bde1a0bd1dbf
+
+cloudfront
+dir
+
+file
+dir
+
+pyami
+dir
+
+mashups
+dir
+
+resultset.py
+file
+
+
+
+
+2010-07-11T18:30:13.000000Z
+4a9310cc7b7fc1c4e8ae5b62b7dc08a2
+2010-06-18T16:46:47.217865Z
+1604
+Mitch.Garnaat
+
+provider.py
+file
+
+
+
+
+2010-07-11T18:30:13.000000Z
+72e6e86fecb16822bda695f91eddb1f5
+2010-07-05T19:38:45.379509Z
+1627
+Mitch.Garnaat
+
+emr
+dir
+
+services
+dir
+
+exception.py
+file
+
+
+
+
+2010-07-11T18:30:13.000000Z
+741aa7288b0adf0e0ed5d5f2409565e4
+2010-07-05T19:38:45.379509Z
+1627
+Mitch.Garnaat
+
+s3
+dir
+
+connection.py
+file
+
+
+
+
+2010-07-11T18:30:13.000000Z
+abe4de2db0a5633d784333a08cca4173
+2010-07-06T22:33:07.351288Z
+1636
+Mitch.Garnaat
+has-props
+
+regioninfo.py
+file
+
+
+
+
+2010-07-11T18:30:13.000000Z
+acb6acd9240073b954f55d887dada1a0
+2010-07-05T19:38:45.379509Z
+1627
+Mitch.Garnaat
+
+__init__.py
+file
+
+
+
+
+2010-07-11T18:30:13.000000Z
+0171e55466d5ccd19c30961b2c2f1fc0
+2010-07-05T21:03:50.597647Z
+1635
+Mitch.Garnaat
+has-props
+
+utils.py
+file
+
+
+
+
+2010-07-11T18:30:13.000000Z
+09083511e96e3c2400827f177e539e48
+2010-07-05T19:38:45.379509Z
+1627
+Mitch.Garnaat
+
+vpc
+dir
+
+manage
+dir
+
+fps
+dir
+
+rds
+dir
+
+contrib
+dir
+
+tests
+dir
+
+mturk
+dir
+
+sns
+dir
+
+handler.py
+file
+
+
+
+
+2010-07-11T18:30:13.000000Z
+09ab6f39fade2bf4f2c0f8c005a713ea
+2007-02-05T13:53:05.947119Z
+114
+Mitch.Garnaat
+
+mapreduce
+dir
+
+sqs
+dir
+
+sdb
+dir
+
+ec2
+dir
+
+gs
+dir
+
+storage_uri.py
+file
+
+
+
+
+2010-07-11T18:30:13.000000Z
+6cc6248924c016b8ca4c679f9cbbd63a
+2010-07-05T19:38:45.379509Z
+1627
+Mitch.Garnaat
+has-props
+

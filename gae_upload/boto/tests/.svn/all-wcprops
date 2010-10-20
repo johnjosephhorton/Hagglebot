@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/1629/trunk/boto/tests
+END
+test_ec2connection.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1627/trunk/boto/tests/test_ec2connection.py
+END
+test_gsconnection.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1629/trunk/boto/tests/test_gsconnection.py
+END
+test_s3versioning.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1627/trunk/boto/tests/test_s3versioning.py
+END
+devpay_s3.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1335/trunk/boto/tests/devpay_s3.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/430/trunk/boto/tests/__init__.py
+END
+test.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1627/trunk/boto/tests/test.py
+END
+test_s3connection.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1594/trunk/boto/tests/test_s3connection.py
+END
+test_sqsconnection.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1627/trunk/boto/tests/test_sqsconnection.py
+END
+test_sdbconnection.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1627/trunk/boto/tests/test_sdbconnection.py
+END

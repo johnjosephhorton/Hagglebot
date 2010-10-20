@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/1627/trunk/boto/gs
+END
+key.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/1627/trunk/boto/gs/key.py
+END
+bucket.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/1627/trunk/boto/gs/bucket.py
+END
+user.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/1627/trunk/boto/gs/user.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1627/trunk/boto/gs/__init__.py
+END
+acl.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/1627/trunk/boto/gs/acl.py
+END
+connection.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1627/trunk/boto/gs/connection.py
+END

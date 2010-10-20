@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/1511/trunk/boto/sdb/persist
+END
+test_persist.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1511/trunk/boto/sdb/persist/test_persist.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/754/trunk/boto/sdb/persist/__init__.py
+END
+property.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1511/trunk/boto/sdb/persist/property.py
+END
+checker.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1511/trunk/boto/sdb/persist/checker.py
+END
+object.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1511/trunk/boto/sdb/persist/object.py
+END

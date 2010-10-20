@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block head %}
+  <style>
+    form {
+      margin: 20px;
+    }
+  </style>
+{% endblock %}
+
+{% block body %}
+  <form action="{{ action }}" method="POST" enctype="multipart/form-data">
+    <input type="file" name="file">
+    <input type="submit" value="Submit">
+  </form>
+{% endblock %}

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/1637/trunk/boto
+END
+provider.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/1627/trunk/boto/provider.py
+END
+resultset.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/1604/trunk/boto/resultset.py
+END
+handler.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/287/trunk/boto/handler.py
+END
+exception.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/1627/trunk/boto/exception.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/1635/trunk/boto/__init__.py
+END
+regioninfo.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1627/trunk/boto/regioninfo.py
+END
+connection.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1636/trunk/boto/connection.py
+END
+utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/1627/trunk/boto/utils.py
+END
+storage_uri.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1627/trunk/boto/storage_uri.py
+END

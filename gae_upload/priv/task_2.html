@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block head %}
+  <script>
+    $(document).ready(function () {
+      new Haggleliza.LabelingUI($('#label_form'), function (form) {
+        Haggleliza.ajaxSubmit(form, function (data, textStatus, xhr) {
+          window.location.href = data.redirect;
+        });
+      });
+    });
+  </script>
+{% endblock %}
+
+
+{% block body %}
+  <div id="image">
+    <img src="{{ image }}" alt="">
+  </div>
+
+  <form action="{{ action }}" method="POST" id="label_form">
+    <div><input type="text" name="label" autofocus> <input type="button" value="+"></div>
+    <div><input type="hidden" name="time"><input type="submit" value="Done"></div>
+  </form>
+{% endblock %}

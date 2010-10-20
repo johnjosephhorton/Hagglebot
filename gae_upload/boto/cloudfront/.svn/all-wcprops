@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/1602/trunk/boto/cloudfront
+END
+identity.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1554/trunk/boto/cloudfront/identity.py
+END
+signers.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1406/trunk/boto/cloudfront/signers.py
+END
+exception.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/947/trunk/boto/cloudfront/exception.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1497/trunk/boto/cloudfront/__init__.py
+END
+distribution.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1602/trunk/boto/cloudfront/distribution.py
+END
+object.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1408/trunk/boto/cloudfront/object.py
+END
+logging.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1406/trunk/boto/cloudfront/logging.py
+END

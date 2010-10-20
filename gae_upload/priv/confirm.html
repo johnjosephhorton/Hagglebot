@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block head %}
+  <style>
+    p, table {
+      margin: 10px;
+    }
+    table {
+      border-collapse: collapse;
+    }
+    table th, table td {
+      padding: 5px;
+      border: solid 1px #999;
+    }
+  </style>
+{% endblock %}
+
+{% block body %}
+  <p>AWS Access Key ID: {{ view.aws_access_key_id|escape }}</p>
+
+  <p>AWS Secret Access Key: {{ view.aws_secret_access_key|escape }}</p>
+
+  <p>AWS Hostname: {{ view.aws_hostname|escape }}</p>
+
+  <p>HIT Title: {{ view.hit_title|escape }}</p>
+
+  <p>HIT Description: {{ view.hit_description|escape }}</p>
+
+  <p>HIT Lifetime: {{ view.hit_lifetime|escape }}</p>
+
+  <p>HIT Max. Assignments: {{ view.hit_max_assignments|escape }}</p>
+
+  <p>HIT Keywords: {{ view.hit_keywords|escape }}</p>
+
+  <p>HIT Duration: {{ view.hit_duration|escape }}</p>
+
+  <p>HIT Approval Delay: {{ view.hit_approval_delay|escape }}</p>
+
+  <p>HIT Frame Height: {{ view.hit_frame_height|escape }} px</p>
+
+  <p>Task 1 Image: <a href="{{ view.t1_image.url|escape }}">{{ view.t1_image.basename|escape }}</a></p>
+
+  <p>Task 1 Reward: ${{ view.t1_reward|escape }}</p>
+
+  <p>Task 2 Image: <a href="{{ view.t2_image.url|escape }}">{{ view.t2_image.basename|escape }}</a></p>
+
+  <table cellpadding="0" cellspacing="0" border="1">
+    <thead>
+      <tr>
+        <th scope="col">Nickname</th>
+        <th scope="col">Opening Bid</th>
+        <th scope="col">Accept Threshold</th>
+        <th scope="col">Reject Threshold</th>
+        <th scope="col">Alpha</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for group in view.groups %}
+        <tr>
+          <td>{{ group.nickname|escape }}</td>
+          <td>{{ group.opening_bid|escape }}</td>
+          <td>{{ group.accept_thresh|escape }}</td>
+          <td>{{ group.reject_thresh|escape }}</td>
+          <td>{{ group.alpha|escape }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <form action="{{ action }}" method="POST">
+    <p><input type="submit" value="Confirm"></p>
+  </form>
+{% endblock %}

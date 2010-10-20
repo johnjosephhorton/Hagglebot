@@ -1,0 +1,106 @@
+8
+
+dir
+21
+http://boto.googlecode.com/svn/trunk/boto/sdb
+http://boto.googlecode.com/svn
+
+
+
+2010-07-05T19:38:45.379509Z
+1627
+Mitch.Garnaat
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+604d75c7-a419-0410-a38f-bde1a0bd1dbf
+
+db
+dir
+
+item.py
+file
+
+
+
+
+2010-07-11T18:30:13.000000Z
+a28b731752f0a3ae36d235e76284fa9c
+2010-01-09T14:11:16.030611Z
+1445
+Mitch.Garnaat
+
+__init__.py
+file
+
+
+
+
+2010-07-11T18:30:13.000000Z
+3e0a5de194e9fe6b66475a7bd820a6d0
+2010-05-03T11:58:08.181835Z
+1586
+Mitch.Garnaat
+
+regioninfo.py
+file
+
+
+
+
+2010-07-11T18:30:13.000000Z
+1794618e14f0df6063faadef056bd247
+2010-07-05T19:38:45.379509Z
+1627
+Mitch.Garnaat
+
+connection.py
+file
+
+
+
+
+2010-07-11T18:30:13.000000Z
+c25ba2f923f8770e1e4030e4c8f42211
+2010-02-25T01:24:13.201275Z
+1531
+Mitch.Garnaat
+
+queryresultset.py
+file
+
+
+
+
+2010-07-11T18:30:13.000000Z
+c9ef0bdbf0308c9fee1a256fcf3cde79
+2010-02-24T23:13:32.545955Z
+1530
+Mitch.Garnaat
+
+persist
+dir
+
+domain.py
+file
+
+
+
+
+2010-07-11T18:30:13.000000Z
+85d646534ad5bebe735b4d296c983eb2
+2010-02-25T19:15:10.184917Z
+1532
+walsh159
+
