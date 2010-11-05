@@ -2,13 +2,13 @@ function $new(tagName, attrs) {
   return jQuery(document.createElement(tagName)).attr(attrs || {});
 }
 
-var Haggleliza = {};
+var Hagglebot = {};
 
-Haggleliza.ajaxError = function (xhr, textStatus) {
+Hagglebot.ajaxError = function (xhr, textStatus) {
   alert(textStatus + ': ' + xhr.status + ': ' + xhr.responseText); // TODO
 }
 
-Haggleliza.ajaxSubmit = function (form, fn) {
+Hagglebot.ajaxSubmit = function (form, fn) {
   var action = form.attr('action'), method = form.attr('method');
 
   jQuery.ajax({
@@ -16,21 +16,21 @@ Haggleliza.ajaxSubmit = function (form, fn) {
   , type: method
   , data: form.serialize()
   , dataType: 'json'
-  , error: Haggleliza.ajaxError
+  , error: Hagglebot.ajaxError
   , success: fn
   });
 }
 
-Haggleliza.ajaxGetOffer = function (url, fn) {
-  jQuery.ajax({url: url, dataType: 'html', error: Haggleliza.ajaxError, success: fn});
+Hagglebot.ajaxGetOffer = function (url, fn) {
+  jQuery.ajax({url: url, dataType: 'html', error: Hagglebot.ajaxError, success: fn});
 }
 
-Haggleliza.labelText = function (node) {
+Hagglebot.labelText = function (node) {
   if (node.nodeType == 1) { /* ELEMENT_NODE */
     if (node.childNodes.length == 0) {
       return jQuery(node).val();
     } else {
-      var values = jQuery.map(node.childNodes, Haggleliza.labelText);
+      var values = jQuery.map(node.childNodes, Hagglebot.labelText);
 
       return values.join('');
     }
@@ -39,7 +39,7 @@ Haggleliza.labelText = function (node) {
   }
 }
 
-Haggleliza.LabelingUI = function (form, fn) {
+Hagglebot.LabelingUI = function (form, fn) {
   var start = new Date();
 
   var submitted = false;
@@ -71,7 +71,7 @@ Haggleliza.LabelingUI = function (form, fn) {
   });
 }
 
-Haggleliza.Negotiation = function (url, chatWindow) {
+Hagglebot.Negotiation = function (url, chatWindow) {
   var self = this;
 
   this.chatWindow = chatWindow;
@@ -82,12 +82,12 @@ Haggleliza.Negotiation = function (url, chatWindow) {
 
   this.chatWindow.slideDown('slow');
 
-  Haggleliza.ajaxGetOffer(url, function (data, _textStatus, _xhr) {
+  Hagglebot.ajaxGetOffer(url, function (data, _textStatus, _xhr) {
     self.handleOffer(jQuery(data));
   });
 }
 
-Haggleliza.Negotiation.prototype.handleOffer = function (response) {
+Hagglebot.Negotiation.prototype.handleOffer = function (response) {
   var self = this;
 
   var form = response.find('form');
@@ -113,7 +113,7 @@ Haggleliza.Negotiation.prototype.handleOffer = function (response) {
   });
 }
 
-Haggleliza.Negotiation.prototype.handleSubmit = function (form) {
+Hagglebot.Negotiation.prototype.handleSubmit = function (form) {
   var self = this;
 
   var input = form.find('input[type=radio]:checked');
@@ -122,13 +122,13 @@ Haggleliza.Negotiation.prototype.handleSubmit = function (form) {
 
   form.find(':submit').attr('disabled', true);
 
-  self.chatMessages.append($new('p').text(Haggleliza.labelText(label)));
+  self.chatMessages.append($new('p').text(Hagglebot.labelText(label)));
 
-  Haggleliza.ajaxSubmit(form, function (replyData, _textStatus, _xhr) {
+  Hagglebot.ajaxSubmit(form, function (replyData, _textStatus, _xhr) {
     if (replyData.redirect) {
       window.location.href = replyData.redirect;
     } else if (replyData.message) {
-      Haggleliza.ajaxGetOffer(replyData.message, function (offerData, _textStatus, _xhr) {
+      Hagglebot.ajaxGetOffer(replyData.message, function (offerData, _textStatus, _xhr) {
         self.handleOffer(jQuery(offerData));
       });
     } else {

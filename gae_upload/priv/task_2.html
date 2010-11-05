@@ -3,8 +3,8 @@
 {% block head %}
   <script>
     $(document).ready(function () {
-      new Haggleliza.LabelingUI($('#label_form'), function (form) {
-        Haggleliza.ajaxSubmit(form, function (data, textStatus, xhr) {
+      new Hagglebot.LabelingUI($('#label_form'), function (form) {
+        Hagglebot.ajaxSubmit(form, function (data, textStatus, xhr) {
           window.location.href = data.redirect;
         });
       });

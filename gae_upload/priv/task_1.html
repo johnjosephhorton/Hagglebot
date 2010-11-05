@@ -5,9 +5,9 @@
     $(document).ready(function () {
       $('#image, #label_form').fadeIn();
 
-      new Haggleliza.LabelingUI($('#label_form'), function (form) {
-        Haggleliza.ajaxSubmit(form, function (data, textStatus, xhr) {
-          new Haggleliza.Negotiation(data.message, $('.chat_window:first'));
+      new Hagglebot.LabelingUI($('#label_form'), function (form) {
+        Hagglebot.ajaxSubmit(form, function (data, textStatus, xhr) {
+          new Hagglebot.Negotiation(data.message, $('.chat_window:first'));
         });
       });
     });
