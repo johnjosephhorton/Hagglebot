@@ -241,13 +241,6 @@ class Task2(RequestHandler):
     labeling.time = int(self.request.get('time'))
     labeling.put()
 
-    # reward = negotiation_reward(self.negotiation)
-    # 
-    # response = mturk.grant_bonus(self.worker, self.experiment, reward)
-    # 
-    # if response.status is False:
-    #   logging.error('could not grant bonus to workerId=' + self.worker.id)
-
     self.json({'redirect': self.mturk_submit_url()})
 
 
