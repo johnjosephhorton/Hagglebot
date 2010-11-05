@@ -1,4 +1,4 @@
-from haggleliza.util import cents_to_dollars
+from hagglebot.util import cents_to_dollars
 
 from urlparse import urlparse
 

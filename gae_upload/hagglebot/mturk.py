@@ -2,7 +2,7 @@ from boto.mturk.connection import MTurkConnection
 from boto.mturk.question import ExternalQuestion
 from boto.mturk.price import Price
 
-from haggleliza.util import cents_to_dollars
+from hagglebot.util import cents_to_dollars
 
 
 def connect(experiment):

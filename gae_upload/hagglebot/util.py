@@ -1,6 +1,6 @@
 from google.appengine.ext import db as datastore
 
-from haggleliza.models import Group, Worker, Negotiation, Experiment
+from hagglebot.models import Group, Worker, Negotiation, Experiment
 
 from decimal import Decimal
 

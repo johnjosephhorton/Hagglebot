@@ -2,11 +2,11 @@ from google.appengine.ext import webapp
 from google.appengine.ext.webapp.util import run_wsgi_app as run_wsgi
 from google.appengine.api import urlfetch
 
-from haggleliza.http import RequestHandler
-from haggleliza.models import *
-from haggleliza.util import *
-from haggleliza.views import ConfirmView
-from haggleliza import hagglorithm, mturk
+from hagglebot.http import RequestHandler
+from hagglebot.models import *
+from hagglebot.util import *
+from hagglebot.views import ConfirmView
+from hagglebot import hagglorithm, mturk
 
 import time, random, yaml, logging
 
